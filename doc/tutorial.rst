@@ -25,7 +25,7 @@ First, ensure that you have all the dependencies installed::
 
     $ sudo apt-get install python2.7 python2.7-dev python-virtualenv libusb-dev\
       libjpeg-dev libtiff-dev libqt4-core rubygems ruby-rmagick libmagickwand-dev\
-      ruby-hpricot scantailor djvulibre-bin libffi-dev libjpeg8-dev ruby-dev\
+      ruby-hpricot scantailor djvulibre-bin libffi-dev ruby-dev\
       libhidapi-dev python-pyexiv2 libjpeg62-turbo-dev
     $ sudo gem install pdfbeads
     $ wget http://djvubind.googlecode.com/files/djvubind_1.2.1.deb
