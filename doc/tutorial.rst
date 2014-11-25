@@ -25,8 +25,11 @@ First, ensure that you have all the dependencies installed::
 
     $ sudo apt-get install python2.7 python2.7-dev python-virtualenv libusb-dev\
       libjpeg-dev libtiff-dev libqt4-core rubygems ruby-rmagick libmagickwand-dev\
-      libhpricot-ruby scantailor djvulibre-bin libffi-dev libjpeg8-dev
+      libhpricot-ruby scantailor djvulibre-bin libffi-dev libjpeg8-dev libudev-dev\
+      libjpeg8-dev libjpeg8
     $ sudo gem install pdfbeads
+    $ sudo pip install cython
+    $ sudo pip install hidapi
     $ wget http://djvubind.googlecode.com/files/djvubind_1.2.1.deb
     $ sudo dpkg -i djvubind_1.2.1.deb
     # Download the latest 'chdkptp' release from the website:
