@@ -38,6 +38,25 @@ First, ensure that you have all the dependencies installed::
     $ pip install spreads[chdkcamera]
     $ pip install spreads[autorotate]
 
+.. _On debain follow these steps::
+    sudo apt-get install python2.7 python2.7-dev python-virtualenv libusb-dev\
+      libjpeg-dev libtiff-dev libqt4-core rubygems ruby-rmagick libmagickwand-dev\
+      ruby-hpricot scantailor djvulibre-bin libffi-dev libudev-dev ruby-dev\
+      libhidapi-dev python-pyexiv2 libjpeg62-turbo-dev libjpeg8-dev libjpeg8
+    sudo apt-get install libudev-dev libjpeg8-dev libjpeg8 libusb-1.0-0-dev
+    sudo gem install pdfbeads
+    sudo apt-get install djvubind
+    sudo apt-get install subversion
+    svn co http://subversion.assembla.com/svn/chdkptp/trunk chdkptp
+    cd chdkptp
+    cp config-sample-linux.mk config.mk
+    sudo apt-get install liblua5.2-dev lua5.2 liblua5.2-0
+    make
+    sudo apt-get install python-pyside python-pip python-yaml
+    sudo pip install cython
+    sudo pip install hidapi
+    pip install spreads[chdkcamera]
+    pip install spreads[autorotate]
 
 Configuration
 -------------
